@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(22, 230, 161);
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+h1{
+    color: rgb(140, 63, 234);
+}
+
+p{
+    color: rgb(140, 63, 234);
+}
+.two{
+    display: none;
+}
+.three{
+    display: none;    
+}
+.Yuuki1{
+    display: none;
+}
+
+.Yuuki2{
+    display: initial;
+    max-width: 800px;
+}
+@media(max-width: 600px){
+    body{
+        background-color: rgb(140, 63, 234);
+    }
+
+    h1{
+        font-size: 24px;
+        color: rgb(216, 0, 0);
+        
+
+    }
+
+    p{
+        font-size: 16px;
+        color: rgb(216, 0, 0);
+
+    }
+    .two{
+        display: none;    }
+    .three{
+        display: initial;    }
+    .one{
+        display: none;    }
+        .Yuuki1{
+            display: initial;
+            max-width: 800px;
+        }
+        
+        .Yuuki2{
+            display: none;
+        }
+}
+
+@media(min-width: 601px) and (max-width: 1024px){
+    h1{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+    .two{
+        display: initial;    }
+    .three{
+        display: none;    }
+    .one{
+         display: none;    }
+         .Yuuki1{
+            display: none;
+        }
+        
+        .Yuuki2{
+            display: initial;
+            max-width: 800px;
+        }
+}
+
+@media(min-width: 1024px){
+    body{
+        background-color: rgb(47, 247, 177);
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    .two{
+        display: none;    }
+    .three{
+        display: none;    }
+    .one{
+        display: initial;    }
+        .Yuuki1{
+            display: initial;
+            max-width: 800px;
+        }
+        
+        .Yuuki2{
+            display: none;
+        }
+}
